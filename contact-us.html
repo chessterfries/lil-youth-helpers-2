@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/logo.png">
+        
+        <title>Lil' Youth Helpers - Contact Us</title>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script>
+            /*function SubForm() {
+                $.ajax({
+                    url:'https://api.apispreadsheets.com/data/9589/',
+                    type:'post',
+                    data:$('#contactForm').serializeArray(),
+                    success: function() {
+                        alert("Form Data Submitted :)");
+                    },
+                    error: function() {
+                        alert("There was an error :(");
+                    }
+                });
+            }*/
+        </script>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-title">
+                <h1>Lil' Youth Helpers</h1>
+            </div>
+
+            <div class="header-img">
+                <img src="images/logo.png" width=80>
+            </div>
+        </div>
+
+        <center>        
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="about-us.html">About Us</a>
+                <a href="find-helper.html">Find Your Helper</a>
+                <a href="join-team.html">Join Our Team</a>
+                <a href="contact-us.html" style="background-color: rgb(199, 144, 43); color: darkblue;">Contact Us</a>
+            </div>
+
+        <br>
+
+        <form id="contactForm">
+            <div class="contact-wrapper">
+                <div class="contact-title">
+                    <h3>Contact Us</h3>
+                </div>
+                <div class="contact-content">
+                    <div class="full-name">
+                        <div class="first-name">
+                            <label for="first-name" class="first-name-label"><strong><span class="required-star">*</span> FIRST NAME: </strong></label> <br>
+                            <input name="first-name" type="text" class="first-name-text" id="first-name" required />
+                        </div>
+
+                        <div class="last-name">
+                            <label for="last-name" class="last-name-label"><strong><span class="required-star">*</span> LAST NAME: </strong></label> <br>
+                            <input name="last-name" type="text" class="last-name-text" id="last-name" required />
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="email">
+                        <label for="email" class="email-label"><strong><span class="required-star">*</span> EMAIL: </strong></label>
+                        <input type="email" name="email" class="email-text" id="email-text" required/>
+                    </div>
+
+                    <br>
+
+                    <div class="message">
+                        <label for="message" class="message-label"><strong><span class="required-star">*</span> MESSAGE: </strong></label> <br>
+                        <textarea name="message" class="message-text" id="message" required></textarea>
+                    </div>
+
+                    <br>
+                        
+                    <div class="additional-details">
+                        <label for="additional-details" class="additional-details-label"><strong>ADDITIONAL COMMENTS/DETAILS: </strong></label> <br>
+                        <textarea name="additional-details" class="additional-details-text"></textarea>
+                    </div>
+
+                    <br>
+
+                    <div class="submit">
+                        <button id="submit-button-contact" class="submit-button" value="Send Message" onclick="submitContactForm()">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <h1 class="or-separator">---------OR---------</h1>
+
+        <div class="chat-with-us">
+            <button class="chat-with-us-button" onclick="startChatAlert()">
+                Chat With Us
+            </button>
+        </div>
+    </center>
+        <br>
+    </body>
+    <script src="script.js"></script>
+</html>

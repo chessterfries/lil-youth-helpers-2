@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/logo.png">
+        <title>Lil' Youth Helpers - Find Your Helper</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-title">
+                <h1>Lil' Youth Helpers</h1>
+            </div>
+
+            <div class="header-img">
+                <img src="images/logo.png" width=80>
+            </div>
+        </div>
+
+        <center>        
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="about-us.html">About Us</a>
+                <a href="find-helper.html" style="background-color: rgb(199, 144, 43); color: darkblue;">Find Your Helper</a>
+                <a href="join-team.html">Join Our Team</a>
+                <a href="contact-us.html">Contact Us</a>
+            </div>
+
+            <div class="find-helper-wrapper">
+                <form>
+                    <div class="find-helper-content">
+                        <div class="search-zip-code">
+                            <label for="zip-code"><strong><span class="required-star">*</span> Enter Your Zip Code: </strong></label>
+                            <br>
+                            <input type="text" id="zip-code" name="zip-code" placeholder="Enter Zip Code">
+                        </div>
+
+                        <br><br>
+
+                        <div class="job-help">
+                            <label for="job-options-label"><strong><span class="required-star">*</span> Please select the task(s) you need help with.<br> Check all that apply.</strong></label>
+                            <div class="job-interests">
+                                <input type="checkbox" id="job-interest-checkbox-1"><p class="job-interests-item" id="job-interest-item-1">Raking Leaves</p>
+                                <input type="checkbox" id="job-interest-checkbox-2"><p class="job-interests-item" id="job-interest-item-2">Weed Pulling</p>
+                                <input type="checkbox" id="job-interest-checkbox-3"><p class="job-interests-item" id="job-interest-item-3">Hedging & Pruning</p>
+                                <input type="checkbox" id="job-interest-checkbox-4"><p class="job-interests-item" id="job-interest-item-4">Lawn Mowing</p>
+                                <input type="checkbox" id="job-interest-checkbox-5"><p class="job-interests-item" id="job-interest-item-5">Dog Walking</p>
+                                <input type="checkbox" id="job-interest-checkbox-6"><p class="job-interests-item" id="job-interest-item-6">Baby-sitting</p>
+                                <input type="checkbox" id="job-interest-checkbox-7"><p class="job-interests-item" id="job-interest-item-7">House Chores</p>
+                                <input type="checkbox" id="job-interest-checkbox-8"><p class="job-interests-item" id="job-interest-item-8">Car Washing</p>
+                                <input type="checkbox" id="job-interest-checkbox-9"><p class="job-interests-item" id="job-interest-item-9">Patio Cleaning</p>
+                                <input type="checkbox" id="job-interest-checkbox-10"><p class="job-interests-item" id="job-interest-item-10">Other (Misc. Chores)
+                                    <select>
+                                        <option value="option1">Option 1</option>
+                                        <option value="option2">Option 2</option>
+                                    </select>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="find-helper">
+                            <button class="find-helper-button" onclick="alert('This button will have functionality later. Once pressed, it will look at what you chose, and sort the helpers based on what you chose. You will be able to view the artificial helpers right now, as we have no current helpers.')">Find your Helper</button>
+                        </div>
+
+                        <br>
+
+                        <hr>
+
+                        <div class="helpers" id="helpers">
+                            <div class="helper">
+                                <div class="profile">
+                                    <img src="images/profile-img.png" width=200>
+                                    <div class="description">
+                                        <p>Name: Bob Jones</p>
+                                        <p>Age: 12 years old</p>
+                                        <p>Chores: Raking Leaves, Weed Pulling</p>
+                                        <div class="send-request">
+                                            <button class="send-request-button" onclick="alert('This button will have functionality later. Once pressed, it will send a request to the helper.')">
+                                                Send Request
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="helper">
+                                <div class="profile">
+                                    <img class="img-2" src="images/profile-img.png" width=200>
+                                    <div class="description">
+                                        <p>Name: Robert Johnson</p>
+                                        <p>Age: 18 years old</p>
+                                        <p>Chores: Car Washing, Dog Walking</p>
+                                        <div class="send-request">
+                                            <button class="send-request-button" onclick="alert('This button will have functionality later. Once pressed, it will send a request to the helper.')">
+                                                Send Request
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="helper">
+                                <div class="profile">
+                                    <img src="images/profile-img.png" width=200>
+                                    <div class="description">
+                                        <p>Name: Madison Brown</p>
+                                        <p>Age: 15 years old</p>
+                                        <p>Chores: Dog Walking, Patio Cleaning</p>
+                                        <div class="send-request">
+                                            <button class="send-request-button" onclick="alert('This button will have functionality later. Once pressed, it will send a request to the helper.')">
+                                                Send Request
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="helper">
+                                <div class="profile">
+                                    <img class="img-4" src="images/profile-img.png" width=200>
+                                    <div class="description">
+                                        <p>Name: Grayson Davis</p>
+                                        <p>Age: 11 years old</p>
+                                        <p>Chores: Raking Leaves, Weed Pulling, Patio Cleaning</p>
+                                        <div class="send-request">
+                                            <button class="send-request-button" onclick="alert('This button will have functionality later. Once pressed, it will send a request to the helper.')">
+                                                Send Request
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="helper">
+                                <div class="profile">
+                                    <img class=img-5 src="images/profile-img.png" width=200>
+                                    <div class="description">
+                                        <p>Name: Maria Garcia</p>
+                                        <p>Age: 12 years old</p>
+                                        <p>Chores: Raking Leaves, Weed Pulling, Baby-sitting</p>
+                                        <div class="send-request">
+                                            <button class="send-request-button" onclick="alert('This button will have functionality later. Once pressed, it will send a request to the helper.')">
+                                                Send Request
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </center>
+
+
+    </body>
+    <script src="script.js"></script>
+</html>

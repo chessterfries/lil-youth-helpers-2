@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/logo.png">
+        <title>Lil' Youth Helpers - Join Our Team</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="header-title">
+                <h1>Lil' Youth Helpers</h1>
+            </div>
+
+            <div class="header-img-join-team">
+                <img src="images/logo.png" width=80>
+            </div>
+        </div>
+
+    <center>        
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="about-us.html">About Us</a>
+            <a href="find-helper.html">Find Your Helper</a>
+            <a href="join-team.html" style="background-color: rgb(199, 144, 43); color: darkblue;">Join Our Team</a>
+            <a href="contact-us.html">Contact Us</a>
+        </div>
+
+        <br>
+
+        <div class="join-team-wrapper">
+            <div class="join-team-title">
+                <h1>Join the Lil' Youth Helpers' Team!</h1>
+            </div>
+
+            <form>
+                <div class="join-team-content">
+                    <div class="student-name">
+                        <label for="student-name"><strong><span class="required-star">*</span> Child Name:</strong></label> <br>
+                        <input type="text" id="student-name" name="student-name" class="student-name-text" minlength="1" maxlength="50" required />
+                    </div>
+
+                    <br>
+
+                    <div class="student-age">
+                        <label for="student-age"><strong><span class="required-star">*</span> Child Age:</strong></label>
+                        <input type="number" min="11" max="17" id="student-age" />
+                    </div>
+
+                    <br>
+
+                    <div class="student-gender">
+                        <label for="student-gender"><strong><span class="required-star">*</span> Child Gender: </strong></label>
+                        <br>
+                        <div class="student-gender-radio">
+                            <div class="radio-1">
+                                <input type="radio" name="student-gender" id="male" required /> <strong> Male </strong>
+                            </div>
+                            <div class="radio-2">
+                                <input type="radio" name="student-gender" id="female" required /> <strong> Female </strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="student-email">
+                        <label for="student-email"><strong><span class="required-star">*</span> Child Email:</strong></label> <br>
+                        <input type="email" id="student-email" name="student-email" class="student-email-text" required />
+                    </div>
+
+                    <br>
+
+                    <div class="source-transportation">
+                        <label for="source-transportation"><strong><span class="required-star">*</span> Does your child have a source of transportation?</strong></label> <br>
+                        <div class="source-transportation-radio">
+                            <div class="radio-1">
+                                <input type="radio" id="yes-transportation" name="source-transportation" required /><strong>Yes</strong>
+                            </div>
+
+                            <div class="radio-2">
+                                <input type="radio" id="no-transportation" name="source-transportation" required /><strong>No</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="parent-name">
+                        <label for="parent-name"><strong><span class="required-star">*</span> Parent Name:</strong></label> <br>
+                        <input type="text" id="parent-name" name="parent-email" class="parent-name-text" minlength="1" maxlength="50" required />
+                    </div>
+
+                    <br>
+
+                    <div class="parent-email">
+                        <label for="parent-email"><strong><span class="required-star">*</span> Parent Email:</strong></label> <br>
+                        <input type="email" id="parent-email" name="parent-email" class="parent-email-text" required />
+                    </div>
+
+                    <br>
+
+                    <div class="address">
+                        <label for="address"><strong><span class="required-star">*</span> Address:</strong></label>
+                        <input type="text" id="address" name="addess" class="address-text" required>
+                    </div>
+
+                    <br>
+
+                    <div class="contact-number">
+                        <label for="contact-number"><strong><span class="required-star">*</span> Contact Number:</strong></label> <br>
+                        <input type="tel" id="contact-number" name="contact-number" class="contact-number-text" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+                    </div>
+
+                    <br>
+
+                    <div class="job-interests-title">
+                        <label for="contact-number"><strong><span class="required-star">*</span> Jobs your child is Interested in (check all that apply):</strong></label> <br>
+                    </div>
+
+                    <div class="job-interests">
+                        <input type="checkbox" id="job-interest-checkbox-1" required><p class="job-interests-item" id="job-interest-item-1">Raking Leaves</p>
+                        <input type="checkbox" id="job-interest-checkbox-2" required><p class="job-interests-item" id="job-interest-item-2">Weed Pulling</p>
+                        <input type="checkbox" id="job-interest-checkbox-3" required><p class="job-interests-item" id="job-interest-item-3">Hedging & Pruning</p>
+                        <input type="checkbox" id="job-interest-checkbox-4" required><p class="job-interests-item" id="job-interest-item-4">Lawn Mowing</p>
+                        <input type="checkbox" id="job-interest-checkbox-5" required><p class="job-interests-item" id="job-interest-item-5">Dog Walking</p>
+                        <input type="checkbox" id="job-interest-checkbox-6" required><p class="job-interests-item" id="job-interest-item-6">Baby-sitting</p>
+                        <input type="checkbox" id="job-interest-checkbox-7" required><p class="job-interests-item" id="job-interest-item-7">House Chores</p>
+                        <input type="checkbox" id="job-interest-checkbox-8" required><p class="job-interests-item" id="job-interest-item-8">Car Washing</p>
+                        <input type="checkbox" id="job-interest-checkbox-9" required><p class="job-interests-item" id="job-interest-item-9">Patio Cleaning</p>
+                        <input type="checkbox" id="job-interest-checkbox-10" required><p class="job-interests-item" id="job-interest-item-10">Other (Misc. Chores) <input type="text" class="other-text" id="other-text" /></p>
+                    </div>
+
+                    <div class="health-concerns">
+                        <label for="health-concerns"><strong><span class="required-star">*</span> Does your child have any Health Concerns?</strong></label>
+                        <div class="health-concerns-radio">
+                            <div class="radio-1">
+                                <input type="radio" id="yes-health-concerns" name="health-concerns" required /> <strong>Yes</strong>
+                            </div>
+
+                            <div class="radio-2">
+                                <input type="radio" id="no-health-concerns" name="health-concerns" required /> <strong>No</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="health-concerns-explanation">
+                        <label for="health-concerns-explanation"><strong>&nbsp;&nbsp; If you answered "yes" to the previous question, please specify.</strong></label>
+                        <textarea name="health-concerns-explanation" id="health-concerns-explanation" cols="30" rows="4"></textarea>
+                    </div>
+
+                    <hr>
+
+                    <div class="liabilities-section">
+                        <center>
+                            <strong><h2>LEGAL RELEASE AND POLICY ACCEPTANCE</h2></strong>
+                            <h3>I understand the risks related to the jobs my child is going to be helping with and know that Lil' Youth Helpers is not liable for any accidents or injuries.</h3>
+                            <input type="checkbox" style="width: auto; height: auto;" id="agree-terms-conditions" required /><strong style="font-size: 20px;"> I accept the terms & conditions. <span class="required-star">*</span></strong>
+                            <br><br>
+                        </center>
+                            <label for="initial"><strong><span class="required-star">*</span> Please Sign Below </strong></label>
+                            <input type="text" id="initial" style="font-family: Arial, Helvetica, sans-serif;" />
+                    </div>
+                    
+                    <br>
+
+                    <div class="join-team-submit">
+                        <input type="submit" class="join-team-submit-button" value="Submit Form" onclick="submitJoinTeamForm()">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </center>
+
+    </body>
+    <script src="script.js"></script>
+</html>

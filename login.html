@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/logo.png">
+        <title>Lil' Helpers - Sign Up</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <body>
+        <h1 class="cross-button" onclick="location.href='index.html'">
+            X
+        </h1>
+
+        <center>
+            <div class="login-container">
+                <form>
+                    <div class="login-content">
+                        <div class="username">
+                            <label for="username-login"><strong>Username:</strong></label> <br>
+                            <input type="text" name="username-login" placeholder="Enter Username" required />
+                        </div>
+
+                        <div class="password">
+                            <label for="Password"><strong>Password: </strong></label>
+                            <br>
+                            <input type="password" name="Password" id="password-2" placeholder="Enter Password" required>
+                            <br>
+                            <input type="checkbox" id="sign-up-password-checkbox" onclick="togglePassword2()" /> <span class="toggle-password">Toggle Password Visiblity</span>
+                        </div>
+
+                        <p style="font-size: 20px;"><span class="required-star">*</span> Make sure you have an account before you login.</p>
+
+                        <div class="submit">
+                            <div class="submit-button">
+                                <input type="submit" value="Login" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </center>
+    </body>
+    <script src="script.js"></script>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/logo.png">
+        <title>Lil' Helpers - Sign Up</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <body>
+        <h1 class="cross-button" onclick="location.href='index.html'">
+            X
+        </h1>
+        <center>
+            <div class="sign-up-container">
+                <h3 class="form-description-text">Once you sign up, an account with your profile will be created for you immediately. Make sure you have a trusted adult that knows about this.</h3>
+                <form action="#" class="sign-up-content">
+                    <label for="Username"><b><span class="required-star">*</span> Username: </b></label>
+                    <br>
+                    <input type="text" name="Username" id="username" required>
+
+                    <br><br>
+
+                    <label for="email"><strong><span class="required-star">*</span> Email: </strong></label>
+                    <br>
+                    <input type="email" name="email" id="email" required>
+
+                    <br><br>
+
+                    <label for="Password"><strong><span class="required-star">*</span> Password: </strong></label>
+                    <br>
+                    <input type="password" name="Password" id="password" required>
+                    <br>
+                    <input type="checkbox" id="sign-up-password-checkbox" onclick="togglePassword()" /> <span style="font-weight: bold;">Toggle Password Visiblity</span>
+
+                    <br><br>
+
+                    <label for="tel-number"><strong><span class="required-star">*</span> Telephone Number: </label>
+                    <br>
+                    <input type="tel" name="tel-number" id="telephone"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> <br>
+                    <span style="font-size: 12px;">(Format: ###-###-####)</span> </strong>
+
+                    <br><br>
+
+                    <input type="checkbox" class="below-eighteen-confirmation" required/>
+                    <strong class="below-eighteen-confirmation-text" id="below-eighteen">
+                     I am under 18 years old, and I have a trusted adult (over 18) that knows about this.</strong>
+
+                    <br><br>
+
+                    <input type="submit" id="submit-button" value="Create Account">                    
+
+                    <br><br>
+                </form>
+            </div>
+        </center>
+    </body>
+    <script src="script.js"></script>
+</html>
